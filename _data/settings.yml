@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-title: Gerous
-description: Gerous is a modern portfolio Jekyll theme
+title: Games by ME
+description: Game development portfolio for Matt Engman
 logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
 logo_dark: "/images/logo-dark.svg"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -40,7 +40,7 @@ cta_button:
 #-------------------------------
 # Author Settings
 author:
-  author_name: "Daryl Mercer"
+  author_name: "Matt Engman"
   author_avatar: "/images/01-1.jpg"
 
 
@@ -48,12 +48,12 @@ author:
 # Hero Settings
 hero:
   enable: true
-  hero_title: I'm an expert user experience strategist and mobile developer.
-  hero_description: Leveraging my expertise, I'm here to collaborate with you on crafting design solutions that transcend expectations. Let's embark on a journey of innovation together!
+  hero_title: I have significant experience with Unreal Engine, C++, and full-stack online SDK development.
+  hero_description: Leveraging my expertise, I want to make great games and tell impactful stories for players around the world!
 
 # Hero Logos
 hero_logos:
-  enable: true
+  enable: false
 
 hero_logo_image:
   - alt: "Apple Logo"
@@ -88,7 +88,7 @@ featured:
 #-------------------------------
 # Projects Section Settings
 projects:
-  enable: true
+  enable: false
   projects_title: Recent Work
   projects_description:
 
@@ -96,7 +96,7 @@ projects:
 #-------------------------------
 # Testimonials Section Settings
 testimonials:
-  enable: true
+  enable: false
   testimonials_intro: Don't take my word for it
   testimonials_title: See what our happy clients say...
   testimonials_info: Join over <b>10K+</b> Prefessionals
@@ -130,7 +130,7 @@ testimonial_items:
 #-------------------------------
 # Faq (Frequently asked questions) Settings
 faq:
-  enable: true
+  enable: false
   faq_title: Frequently asked questions
   faq_intro: Need some answers?
   faq_items:
@@ -151,7 +151,7 @@ faq:
 #-------------------------------
 # Blog Section Settings
 blog:
-  enable: true
+  enable: false
   blog_intro: What’s new?
   blog_title: Latest from blog
 
@@ -159,7 +159,7 @@ blog:
 #-------------------------------
 # Author Section Settings
 author_section:
-  enable: true
+  enable: false
   author_section_title: "Hi there 👋 ! Welcome to my fun zone. I'm Daryl, the playmaker of ideas."
   author_section_description: When I'm not crafting digital wonders, you can catch me sipping on coffee, cruising around on my bike, diving into games, and grooving to some tunes. Let's connect, share stories, and make this digital space our cozy corner. Cheers to good vibes and creative adventures!
   author_section_image: "/images/01.jpg"
@@ -197,7 +197,7 @@ social:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_title: Stay inspired weekly 📬 Your friendly dose of tips & insights!
   mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
