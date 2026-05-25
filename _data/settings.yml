@@ -2,8 +2,8 @@
 # Site Settings
 title: Games by ME
 description: Game development portfolio for Matt Engman
-logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
-logo_dark: "/images/logo-dark.svg"
+logo: "/images/discospider.svg" # You can add own logo. For example "/images/logo.svg".
+logo_dark: "/images/discospider-dark.svg"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -13,26 +13,16 @@ menu_settings:
   menu_items:
     - title: "Home"
       url: "/"
+    - title: "Games"
+      url: "/games/"
     - title: "Projects"
       url: "/projects/"
-    - title: "Posts"
-      url: "/posts/"
-    - title: "Resources"
-      submenu:
-      - url: "/posts/the-psychology-of-mobile-app-colors-influencing-user-perception"
-        title: "News"
-      - url: "/posts/gamifying-the-user-experience-strategies-beyond-mobile-games"
-        title: "Games"
-      - url: "/posts/harmonizing-aesthetics-and-functionality-in-ux-ui-mobile-design"
-        title: "Mobile"
-      - url: "/elements/"
-        title: "Elements"
     - title: "About Me"
       url: "/about/"
 
 # Call to action button
 cta_button:
-  enable: true
+  enable: false
   cta_button_link: '/contact/'
   cta_button_text: Get in touch
 
@@ -41,7 +31,7 @@ cta_button:
 # Author Settings
 author:
   author_name: "Matt Engman"
-  author_avatar: "/images/01-1.jpg"
+  author_avatar: "/images/profile.jpg"
 
 
 #-------------------------------
