@@ -1,32 +1,20 @@
 ---
 layout: page
 title: About Me
-description: I am an expert user experience strategist and mobile developer, driven by a relentless pursuit of innovation and excellence. My journey in the tech world has been shaped by a commitment to creating solutions that not only meet but exceed user expectations.
+description: I am driven by a deep passion for games, the stories they can tell, and the gaming industry that makes them happen. I hope to use and further develop my expertise to make great and impactful experiences for others.
 permalink: /about/
-image: '/images/01.jpg'
+image: '/images/profile.jpg'
 ---
-As a user experience strategist, I specialize in understanding the intricacies of user behavior and translating them into intuitive and enjoyable digital interfaces. My approach is rooted in empathy, ensuring that every design decision considers the end-user's perspective.
+My professional experience is wide-ranging, with a focus on C++ development. I have a deep understanding of Unreal Engine, but have developed online game systems in engine-agnostic ways as well, leading to a strong understanding of how online games should work.
 
-## Mobile development maven
+## C++ Skills, Both In Engine and Out
 
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
+I have been professionally working with C++ in and out of the games industry for over 7 years, with much of that experience including work in and around Unreal Engine 4 and 5. This has granted me a deep understanding of lower-level C++ concepts including memory management, thread management, and leveraging engine code to its full potential.
 
-> To design is to communicate clearly by whatever means you can control or master - Milton Glaser
+## You Never Know Who You Might Need
 
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/01-2.jpg" loading="lazy" alt="Author">
-    <img src="/images/01-3.jpg" loading="lazy" alt="Author">
-  </div>
-  <em>Photo by <a href="https://www.pexels.com/@david-garrison-1128051/" target="_blank">David Garrison</a> on <a href="https://www.pexels.com/" target="_blank">Pexels</a></em>
-</div>
-
-I believe in the power of technology to enrich lives. Whether it's through creating captivating mobile apps or designing user-centric interfaces, I aim to make a positive impact on how people engage with the digital world.
-
-## Let's Create Together
-
-Whether you're looking to enhance the user experience of your digital platform or bring a groundbreaking mobile app to life, I'm here to collaborate and innovate. Let's embark on a journey to transform ideas into exceptional digital experiences.
-
-Feel free to reach out, and let's turn your vision into a digital reality!
+Game development moves fast and runs into costly roadblocks all the time. My wide-ranging experience using a variety of tech stacks means I can and have filled any role on a team, no matter what is needed, including:
+* Front-end/UI/UX development for web, mobile, and games in-engine
+* Engine-agnostic C++ SDK creation
+* Computer graphics and other low-level game engine systems
+* Project management using a variety of agile techniques
