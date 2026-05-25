@@ -1,46 +1,57 @@
 ---
 layout: default
-title: Writing
-description: Gerous blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!
+title: Works
+description: Embark on a journey through a handpicked selection of projects that embody the essence of passion, simplicity, and creativity.
 ---
 
 <div class="container">
   <div class="page-section-head">
-    {% if page.title %}
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% endif %}
+    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.projects.projects_title }}{% endif %}</h1>
     {% if page.description %}
     <p class="page-description">{{ page.description }}</p>
+    {% else site.data.settings.projects.projects_description %}
+    <p class="page-description">{{ site.data.settings.projects.projects_description }}</p>
     {% endif %}
-  </div>
-
-  <div class="explore-tags">
-    <h2>Explore:</h2>
-    <div class="tag-cloud">
-      {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-      {% assign tag_words = site_tags | split:',' | sort %}
-      {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-      <a href="{{ site.baseurl }}/tags/?tag={{ this_word | cgi_escape }}">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
-      {% endunless %}
-      {% endfor %}
-    </div>
   </div>
 </div>
 
-<section class="section">
+<!-- begin projects -->
+<section class="section projects animate">
   <div class="container">
-    <div class="row grid">
-    {% if site.posts.size > 0 %}
-      {% for post in paginator.posts offset:0 %}
-        {% include article.html %}
-      {% endfor %}
-    {% endif %}
+    <div class="container__inner">
+      <div class="row">
+        {% for project in site.projects reversed %}
+        <article class="project col col-4 col-d-6 col-t-12">
+          <div class="project__content">
+            <a href="{{ project.url }}" class="project__image">
+              {% if project.image and project.video_embed %}
+              <div class="video-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                  <polygon points="40,30 70,50 40,70"></polygon>
+                </svg>
+              </div>
+              {% endif %}
+              <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+            </a>
+            <div class="project__info">
+              {% if project.label %}
+              <div class="project__label">{{ project.label }}</div>
+              {% endif %}
+              {% if project.title %}
+              <h3 class="project__title"><a class="project__link" href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
     </div>
   </div>
-  {% include pagination.html %}
 </section>
+<!-- end projects -->
 
 {% include section-faq.html %}
+
+{% include section-author.html %}
 
 {% include section-subscribe.html %}
