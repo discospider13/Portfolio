@@ -31,8 +31,7 @@
 
             <div class="splide__track animate">
               <div class="splide__list">
-                {% assign sorted = site.projects | sort: 'date' | reverse %}
-                {% for project in sorted %}
+                {% for project in site.games %}
                 {% if project.featured == true %}
                 <article class="project col-4 col-d-6 col-t-12 splide__slide">
                   <div class="project__content">
