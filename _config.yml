@@ -22,9 +22,9 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts:
+  games:
     output: true
-    permalink: /posts/:slug
+    permalink: /games/:slug
   projects:
     output: true
     permalink: /project/:slug
