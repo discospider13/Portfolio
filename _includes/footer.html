@@ -7,21 +7,17 @@
         <div class="footer__inner">
           <div class="row">
             <div class="col col-4 col-d-12">
-              <div class="footer__info">
-                <div class="logo-footer">
-                  <a class="logo-footer__link" href="{{ site.baseurl }}/">
-                    {% if site.data.settings.logo or site.data.settings.logo_dark %}
-                    <img class="logo-footer__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}"
-                      alt="{{ site.data.settings.title }}">
-                    <img class="logo-footer__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
-                    {% else %}
-                    {{ site.data.settings.title }}
-                    {% endif %}
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col col-4 col-d-12">
+			  <div class="logo-footer">
+			    <a class="logo-footer__link" href="{{ site.baseurl }}/">
+				  {% if site.data.settings.logo or site.data.settings.logo_dark %}
+				  <img class="logo-footer__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}"
+				    alt="{{ site.data.settings.title }}">
+				  <img class="logo-footer__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
+				  {% else %}
+				  {{ site.data.settings.title }}
+				  {% endif %}
+			    </a>
+			  </div>
               <div class="footer__navigation">
                 <ul class="footer__navigation__list list-reset">
                   {% for item in site.data.settings.footer_menu__settings.menu__items %}
