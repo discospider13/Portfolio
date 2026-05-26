@@ -2,7 +2,6 @@
 title: Terrain Generation Tool
 label: Student Project
 image: '/images/TG.png'
-video_embed: https://www.youtube.com/watch?v=PUVAC0ZQ-tA
 featured:
 ---
 

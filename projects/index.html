@@ -23,7 +23,7 @@ description: Small projects created either for myself, for a game jam, or as par
         {% for project in site.projects %}
         <article class="project col col-4 col-d-6 col-t-12">
           <div class="project__content">
-            <a href="{{ project.url }}" class="project__image">
+            <a href="{{ project.url | relative_url }}" class="project__image">
               {% if project.image and project.video_embed %}
               <div class="video-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
