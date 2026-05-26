@@ -42,9 +42,9 @@ defaults:
       layout: "page"
   - scope:
       path: ""
-      type: "posts"
+      type: "games"
     values:
-      layout: "post"
+      layout: "game"
   - scope:
       path: ""
       type: "projects"
