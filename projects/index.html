@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Works
-description: Embark on a journey through a handpicked selection of projects that embody the essence of passion, simplicity, and creativity.
+title: Projects
+description: Small projects created either for myself, for a game jam, or as part of my time in school
 ---
 
 <div class="container">
@@ -20,7 +20,7 @@ description: Embark on a journey through a handpicked selection of projects that
   <div class="container">
     <div class="container__inner">
       <div class="row">
-        {% for project in site.projects reversed %}
+        {% for project in site.projects %}
         <article class="project col col-4 col-d-6 col-t-12">
           <div class="project__content">
             <a href="{{ project.url }}" class="project__image">

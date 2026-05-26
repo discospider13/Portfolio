@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <div class="project-head">
+    {% if page.video_embed %}
+    <div class="project-video">
+      <div class="project-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0"
+          webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    {% else %}
+    {% if page.image %}
+    <div class="project-image">
+      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    {% endif %}
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-info">
+      {% if page.label %}
+      <div class="project-label">{{ page.label }}</div>
+      {% endif %}
+      {% if page.title %}
+      <h1 class="project-title">{{ page.title }}</h1>
+      {% endif %}
+    </div>
+
+    {{ content }}
+
+  </div>
+
+</div>
+
+{% include section-faq.html %}
+
+{% include section-subscribe.html %}
