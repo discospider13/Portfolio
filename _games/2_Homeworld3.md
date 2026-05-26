@@ -1,19 +1,23 @@
 ---
-title: Blood Brothers
-label: Student Project
-image: '/images/BB_Title.png'
-featured:
+title: Homeworld 3
+label: Gearbox Publishing
+image: '/images/HW3_Title.png'
+featured: true
 ---
-Created in Unreal Engine 4 and released on Steam, it represents the culmination of what I learned at Baylor before entering the professional space.
+The long-awaited sequel to the legendary space-faring RTS. Created using Unreal Engine 4 and released on Windows.
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/Portfolio/images/BB_Gameplay.png" loading="lazy" alt="Gameplay">
-    <img src="/Portfolio/images/BB_Boss.png" loading="lazy" alt="Boss Fight">
+    <img src="/Portfolio/images/HW3_Shift.png" loading="lazy" alt="Shift Menu">
+    <img src="/Portfolio/images/HW3_Menu.png" loading="lazy" alt="Main Menu">
   </div>
 </div>
 
-## Game Development, Condensed
+## SHiFT Outside of Gearbox
+As a publisher, Gearbox wanted to share its online platform with the games it published through custom plugins for major game engines. The idea was to get a complete suite of online features set up in days or weeks instead of months or years. Homeworld 3 was the biggest game that uses SHiFT outside of Gearbox-created titles.
 
-Blood Brothers was a semester-long capstone project for students in the gaming concentration at Baylor. We worked with industry professionals at Gearbox to design, create, and release a short game on Steam.
-Given the limited time and number of people involved, I worked on all pieces of the game, but fully owned enemy AI, UI/UX, integration of the Steam API, and creation of the Steam page. I also took on a project managment role with the artists and musicians we worked with.
+## My Contributions
+
+* Creation of a custom Unreal Engine plugin for easy integration of SHiFT online systems
+* Assisting with integration of the SHiFT Unreal Engine plugin
+* Assisting with testing and QA of SHiFT online systems

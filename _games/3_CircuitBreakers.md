@@ -1,19 +1,23 @@
 ---
-title: Blood Brothers
-label: Student Project
-image: '/images/BB_Title.png'
-featured:
+title: Super Circuit Breakers
+label: Triverske
+image: '/images/CB_Title.png'
+featured: true
 ---
-Created in Unreal Engine 4 and released on Steam, it represents the culmination of what I learned at Baylor before entering the professional space.
+An indie bullet hell twin-stick shooter featuring 6-player co-op gameplay. Created using GameMaker and released on Windows.
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/Portfolio/images/BB_Gameplay.png" loading="lazy" alt="Gameplay">
-    <img src="/Portfolio/images/BB_Boss.png" loading="lazy" alt="Boss Fight">
+    <img src="/Portfolio/images/CB_Gameplay1.png" loading="lazy" alt="Gameplay">
+	<img src="/Portfolio/images/CB_Gameplay2.png" loading="lazy" alt="Gameplay">
   </div>
 </div>
 
-## Game Development, Condensed
+## A Remastered Experience
+Super Circuit Breakers is the 2020 remaster of Circuit Breakers from 2015. Upgrades include a graphical overhaul, performance improvements, online support, and more.
 
-Blood Brothers was a semester-long capstone project for students in the gaming concentration at Baylor. We worked with industry professionals at Gearbox to design, create, and release a short game on Steam.
-Given the limited time and number of people involved, I worked on all pieces of the game, but fully owned enemy AI, UI/UX, integration of the Steam API, and creation of the Steam page. I also took on a project managment role with the artists and musicians we worked with.
+## My Contributions
+
+* Overhaul of lighting
+* Creation of a real-time reflections
+* Testing and QA
