@@ -81,6 +81,13 @@ projects:
   enable: false
   projects_title: Recent Work
   projects_description:
+  
+  #-------------------------------
+# Games Section Settings
+games:
+  enable: false
+  projects_title: Selected Games
+  projects_description:
 
 
 #-------------------------------
