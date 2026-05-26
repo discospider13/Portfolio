@@ -173,10 +173,10 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'Games'
+      url: '/games/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Posts'
-      url: '/posts/'
     - url: '/about/'
       title: 'About Me'
 

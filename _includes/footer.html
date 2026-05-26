@@ -32,23 +32,8 @@
                 </ul>
               </div>
             </div>
-            <div class="col col-4 col-d-12">
-              {% if site.data.settings.social %}
-              <div class="footer__social">
-                <ul class="footer__social__list list-reset">
-                  {% for social in site.data.settings.social %}
-                  <li class="footer__social__item">
-                    <a class="footer__social__link" href="{{ social.link }}" target="_blank" rel="noopener" aria-label="{{ social.name }} link"><i class="{{ social.icon }}"></i></a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              {% endif %}
-            </div>
           </div>
         </div>
-
-        <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>. Crafted by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
 
       </div>
     </div>
